@@ -1,11 +1,12 @@
 
-body{
+body {
  background-image: url("../images/snowy_trees.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
+  line-height: 1.6;
 }
 
 .main-group{
@@ -34,20 +35,26 @@ h2 {
   padding: 1em;
 }
 
+li {
+  list-style-type: none;
+}
+
 .home ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 20px
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.home ul li {
+  list-style-type: none;
 }
 
 .home img {
   height: 50px;
   width: auto;
   opacity: 0.5;
-}
-
-.home ul li {
-  list-style-type: none
 }
 
 body nav {
