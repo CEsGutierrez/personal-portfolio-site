@@ -28,7 +28,6 @@ h2 {
 }
 
 .projects ul {
-  margin-right: 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -48,6 +47,15 @@ h2 {
 
 .projects ul li {
   list-style-type: none
+}
+
+#video-store-consumer{
+  background-color: rgb(162, 157, 211, 0.2);
+}
+
+#video-store-consumer li p {
+  padding-right: 2em;
+  padding-right: 2em;
 }
 
 body nav {
