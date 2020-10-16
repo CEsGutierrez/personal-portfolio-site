@@ -1,0 +1,161 @@
+
+body {
+  background-image: url("../images/cookin.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.main-group {
+  margin-left: 25%;
+  font-family: 'Literata', sans-serif;
+  color: rgb(17, 77, 37);
+  background-color: rgba(235, 235, 235, 0.5);
+}
+
+h2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(137, 84, 84, 0.7);
+  font-size: 2em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#books h3{
+  background-color: rgba(106, 106, 106, 0.7);
+}
+
+#food h3{
+  background-color: rgba(135, 116, 21, 0.7);
+}
+
+h4 {
+  text-align: left;
+  font-size: 1em;
+  color: darkslategray;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.hobbies {
+  background-color: rgb(155, 155, 155, 0.5);
+  margin-bottom: 2px;
+}
+
+.book-list li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+.book-list li a{
+  color: rgb(70, 70, 70);
+}
+
+.book-list li a:visited{
+  color: rgb(70, 70, 70);
+}
+
+.book-list li a:hover{
+  color: rgb(148, 71, 71);
+}
+
+#food {
+  background-color: rgba(142, 128, 57, 0.5);
+}
+
+#side-note {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+}
+
+#side-note p {
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.6;
+}
+
+#food img {
+  margin-top: 1em;
+  width: 10em;
+  border-radius: 20px;
+  text-align: right;
+  align-items: baseline;
+  height: 10em;
+  border: 1px solid #5e5110;
+  margin-left: 1em;
+}
+
+#food ul li{
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+#food ul li a:visited{
+  color: rgb(17, 77, 37);
+}
+
+#food ul li a:hover{
+  color: rgb(148, 71, 71);
+}
+
+body nav {
+  width: 20%;
+  height: 9em;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(118, 146, 107);
+  opacity: 0.7;
+}
+ 
+body nav ul li {
+  list-style-type: none;
+  padding: 0.5em;
+  font-family: 'Bitter', serif;
+}
+ 
+body nav ul {
+  padding: 0em;
+  margin: 0;
+}
+ 
+.nav-link:link {
+  color: rgb(52, 42, 107);
+  font-size: 1em;
+  text-align: left
+}
+ 
+.nav-link:visited {
+  text-decoration: none;
+  color: #000000;
+}
+ 
+.nav-link:hover {
+  text-decoration: none;
+  color: rgb(59, 68, 56);
+}
+
+footer {
+  color: grey;
+  font-size: 0.8em;
+  text-align: right;
+  margin: 10px;
+ }
+ 
